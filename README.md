@@ -27,10 +27,10 @@
  ## 作品照片
 - HLS优化与直接实现的对比如图所示
  
- ![image](./images/OPresult.png)
+ ![image](./images/Optiresult.png)
 - RTL和C Co-Simulation结果如图所示
  
  ![image](./images/COresult.png)
 - Vivado工程block design结构如图所示
  
- ![image](./images/BDresult.png)
+ ![image](./images/Blockresult.png)
