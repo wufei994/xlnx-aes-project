@@ -15,18 +15,18 @@
     型号：Pynq-Z2
  
 ## 仓库目录介绍
- -- SourceCode目录存放了aes.cpp、aes.h、aes_test.cpp三个文件。
-    1. 其中aes.cpp为项目文件，void aes(data_t in[16], data_t out[16], m_t mode)函数为顶层函数，参数in，out对应输入输出，mode对应加解密模式，其中mode=0为加密，mode=1为解密。
-    2. aes.h中定义了常用的数据类型以及顶层函数。
-    3. aes_test.cpp中对aes.cpp功能进行了模拟测试，测试结果如图所示，可以看出加解密之后数据不变。
-    ![image](http://github.com/zhbeiluo/xlnx-aes-project/images/Cresult.jpg)
- -- images目录存放了使用到的截图
- -- ExecutableFiles存放了Vivado工程生成的比特流文件。
+- SourceCode目录存放了aes.cpp、aes.h、aes_test.cpp三个文件。
+    - 其中aes.cpp为项目文件，void aes(data_t in[16], data_t out[16], m_t mode)函数为顶层函数，参数in，out对应输入输出，mode对应加解密模式，其中mode=0为加密，mode=1为解密。
+    - aes.h中定义了常用的数据类型以及顶层函数。
+    - aes_test.cpp中对aes.cpp功能进行了模拟测试，测试结果如图所示，可以看出加解密之后数据不变。
+    ![image](http://github.com/zhbeiluo/xlnx-aes-project/images/Cresult.png)
+- images目录存放了使用到的截图
+- ExecutableFiles存放了Vivado工程生成的比特流文件。
  
  ## 作品照片
- HLS优化与直接实现的对比如图所示
- ![image](http://github.com/zhbeiluo/xlnx-aes-project/images/OPresult.jpg)
- RTL和C Co-Simulation结果如图所示
- ![image](http://github.com/zhbeiluo/xlnx-aes-project/images/COresult.jpg)
- Vivado工程block design结构如图所示
- ![image](http://github.com/zhbeiluo/xlnx-aes-project/images/BDresult.jpg)
+- HLS优化与直接实现的对比如图所示
+ ![image](http://github.com/zhbeiluo/xlnx-aes-project/images/OPresult.png)
+- RTL和C Co-Simulation结果如图所示
+ ![image](http://github.com/zhbeiluo/xlnx-aes-project/images/COresult.png)
+- Vivado工程block design结构如图所示
+ ![image](http://github.com/zhbeiluo/xlnx-aes-project/images/BDresult.png)
